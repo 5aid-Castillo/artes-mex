@@ -1,0 +1,419 @@
+
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	font-family: 'Courier New', monospace;
+
+}
+/*Titulo*/
+.wrap{
+	max-width: 1100px;
+	width:90%;
+	margin:auto;
+
+}
+
+.wrap > h1{
+	color: #8181F7;
+	font-weight: 1500;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px 0px;
+	font-family: 'Courier New', monospace;
+	background: #000;
+}
+
+.t1>h1{
+	color:#fff;
+	font-weight: 1500;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px 0px;
+	font-family: 'Courier New', monospace;
+}
+.t22>h3{
+	color: #fff;
+	font-weight: 2000;
+	display: flex;
+	flex-direction:column;
+	text-align: center;
+	margin-left: 0px 5px;
+	margin: 50px 150px;
+	font-family: 'Courier New', monospace;
+
+
+}
+
+.tJ1{
+	padding: 100px 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 100px;
+}
+.tJ>h1{
+
+	color: #fff;
+	font-weight: 1500;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px 100px;
+	font-family: 'Courier New', monospace;
+
+}
+
+
+/*En esta parte es el css de el cuadro de menu posterior. */
+
+body{
+	padding: 0%;
+	font-family: "verdana";
+
+}
+
+
+a{
+	text-decoration: none;
+	color: #000;
+
+}
+a:hover
+{
+	color:#fff;
+}
+
+.menu
+{
+
+	width: 100%;
+	background: #000;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: absolute;
+	top:10%;
+	bottom:;
+	right:0%;
+	left:0%; 
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	padding: 9px 50px;
+	display: inline-block;
+	color: #fff;
+	
+}
+.menu li a:hover{
+	background: #ccc;
+	color: #000;
+}
+
+
+
+
+
+/*parte del boton show all */
+
+
+.btn-join{
+	width: 15%;
+	background:#F5A9E1;
+	text-align: center;
+	top:50%;
+	bottom:0%;
+	right: 0%;
+	left:0%;
+	font-size: 150%;
+	margin: 200px 500px;
+	font-family: 'Courier New', monospace;
+
+}
+
+.btn-join li{
+	display: block;
+}
+.btn-join li a{
+	padding:20px 20px;
+	display:block;
+	color:#000;
+	
+	
+}
+.btn-join li a:hover{
+	background: #F6CEF5;
+	color:#000;
+	font-family: 'Courier New', monospace;
+}
+
+/*parte del inicio de secion*/
+.from-iniciar{
+	width: 98%;
+	max-height: 500px;
+	margin: auto;
+	border-radius: 7px;
+}
+.form-register{
+	width: 98%;
+	max-height: 500px;
+	margin: auto;
+	border-radius: 7px;
+}
+
+/*Parte del registro */
+.container{
+	padding: 20px 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 400px;
+
+}
+/*Parte del  registro */
+
+input{
+	margin-bottom:20px;
+	padding: 20px;
+	font-size: 16px;
+	border-radius: 50px;
+	border:5px solid darkgray;
+
+	}
+	
+
+/* esto es parte de el texto del index */
+.p1{
+	font-size: 150%;
+	text-align: justify-all;
+	color: #A9A9F5;
+	background: #000;
+	font-family: 'Courier New ' ,monospace;
+
+}
+.box{
+	position: absolute;
+	top: 70%;
+	bottom:;
+	right:100%;
+	left:10%;
+}	
+.box{
+	height: 100%;
+	width: 80%;
+	padding: 5%;
+
+/* ====Esto y el input es para el login === */
+
+}
+.input-48{
+	width: 48%;
+}  
+.input-100{
+	width: 100%;
+}
+
+
+.send{
+	background: crimson;
+	color: #000;
+	margin: auto;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-size:20px;
+}
+
+
+/*titulo de constacts and pages */
+.t2>h1{
+	color:#FE2E64;
+	font-weight: 1000;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px 0px;
+	font-family: 'Courier New', monospace;
+	background: #000;
+}
+
+/*titulo de Artist */
+.t3>h1{
+
+	color:#F3F781;
+	font-weight: 1000;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px 0px;
+	font-family: 'Courier New', monospace;
+	background: #000;	
+}
+/*titulo de history */
+.t4>h1{
+	color:#58FA58;
+	font-weight: 1000;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px 0px;
+	font-family: 'Courier New', monospace;
+	background: #000;	
+}
+
+.store-wrapper>h1{
+	color:#FE2EF7;
+	font-weight: 800;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 0px;
+	font-family: 'Courier New', monospace;
+	background: #000;
+
+}
+/*Productos de venta(lista) */
+
+.store-wrapper{
+	max-width: 400px;
+	width: 400px;
+	margin: 0px 400px ; /*es para centrar el div de prodicts list*/
+	margin-bottom: 100px; /*separar los div de store-wrapper con wrapper*/
+}
+.p2{
+	font-size: 120%;
+	text-align: justify-all;
+	color: #00FF00;
+	background: #000;
+	font-family: 'Courier New ' ,monospace;
+}
+
+.box2{
+	position: absolute;
+	top: 20%;
+	bottom:;
+	right:100%;
+	left:12%;
+}	
+.box2{
+	height: 100%;
+	width: 80%;
+	padding: 10%;
+}
+
+
+
+.box3{
+	position: absolute;
+	top: 20%;
+	bottom:;
+	right: 100%
+	/*left:10%*/
+	height:100%;
+	width: 80%;
+	padding: 5%;
+}
+.p3{
+	font-size: 150%;
+	text-align: justify-all;
+	color: #A9A9F5;
+	
+	font-family: 'Courier New' , monospace;
+}
+.p4{
+	font-size: 150%;
+	text-align:justify-all;
+	color: #A9A9F5;
+	background: #000;
+	font-family: 'Courier New', monospace; 
+}
+ 
+
+
+
+
+.form__link {
+	color:#fff;
+
+	
+}
+
+.form__link>a{
+	background: #BE81F7;
+}
+
+
+
+.container>p{
+
+	color:#fff;
+}
+
+input:hover{
+	background: cadetblue;
+}
+
+.tJ1>input:hover{
+	background: cadetblue;
+}
+
+
+
+.grid{
+	position: relative;
+	width:100%;
+	
+	
+		
+
+	
+}
+.grid .item{
+	position: absolute;
+	display: block;
+	padding:0;
+	margin: 20px;
+	width: calc(33.33% - 20px);
+}
+
+.grid .item-contenido{
+	position:relative;
+}
+
+.grid .item img{
+	width: 70%;
+	cursor: pointer;
+	vertical-align: top;
+
+}
+
+
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+	}
+
+.contenedor{
+	width: 90%;
+	max-width: 850px;
+	margin: auto;
+}	
+
+
+
+
+
+
+
+
+/* END /*
+

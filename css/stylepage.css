@@ -1,0 +1,159 @@
+.logo a{
+
+  text-decoration: none;
+  
+}
+.triangulo-1 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #F1C40F ;
+   
+
+}
+.triangulo-2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #C0392B  ;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: #F8C471;
+   
+}
+.container{
+    max-width: 950px;
+    margin: auto;
+
+}
+
+.menu{
+    float: right;
+    line-height: 50px;
+    
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 50px;
+    text-decoration: none;
+    color: #6d6d6d;
+    transition: all 500ms ease;
+}
+.menu a:hover{
+    background: #cc673b;
+    color: #fff;
+}
+.menu .submenu{
+    position: fixed;
+    background: #fff;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+.menu .submenu li a{
+    line-height: 30px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+.contenedor-busqueda{
+ 
+  margin: 20px 500px;
+  overflow: hidden;
+  background: transparent;
+  position: static;
+
+}
+.contenedor-busqueda-input{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  background: transparent;
+  margin: 0;
+  position: static;
+  padding: 0 66px 0 0; 
+  overflow: hidden;
+}
+  
+.form-busqueda {
+  overflow: hidden;
+  position: relative;
+}
+  
+.busqueda-input {
+    width: 100%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 40px;
+  padding: 0 46px 0 10px;
+  border-color: #F8C471;
+  border-radius: 20px; /* (height/2) + border-width */
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 15px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 26px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+  
+.busqueda-submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  margin-top: 13px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+  background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.busqueda-input:focus {
+  outline: none;
+  border-color: #D68910;
+}
+
+.busqueda-input:focus.busqueda-submit {
+  color: #D68910; 
+}
+
+.busqueda-submit:hover {
+  color: #D68910;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888;
+}
+
+
+.goshop:hover{
+  background: #A569BD;
+  cursor: pointer;
+
+}
+
+
+
